@@ -16,7 +16,7 @@ slide_window = 7 # how many last conversations to remember. This is the slide wi
 # service parameters
 CORTEX_SEARCH_DATABASE = "CORTEX_SEARCH_DOCS"
 CORTEX_SEARCH_SCHEMA = "DATA"
-CORTEX_SEARCH_SERVICE = "CORTEX_SEARCH_PARSE_DOC_SVC"
+CORTEX_SEARCH_SERVICE = "CORTEX_SEARCH_SVC"
 ######
 ######
 
