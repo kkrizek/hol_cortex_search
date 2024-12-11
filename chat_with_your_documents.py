@@ -14,7 +14,7 @@ NUM_CHUNKS = 3 # Num-chunks provided as context. Play with this to check how it 
 # service parameters
 CORTEX_SEARCH_DATABASE = "CORTEX_SEARCH_DOCS"
 CORTEX_SEARCH_SCHEMA = "DATA"
-CORTEX_SEARCH_SERVICE = "CORTEX_SEARCH_PARSE_DOC_SVC"
+CORTEX_SEARCH_SERVICE = "CORTEX_SEARCH_SVC"
 ######
 ######
 
