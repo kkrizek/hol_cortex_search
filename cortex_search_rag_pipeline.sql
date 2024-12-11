@@ -1,5 +1,6 @@
 /***************************
  Change database name and warehouse to your database and warehouse
+ Resources:  https://github.com/kkrizek/hol_cortex_search.git
 ***************************/
 USE DATABASE cortex_search_hol;  --CHANGE THIS
 USE SCHEMA hol;
@@ -20,7 +21,7 @@ select * from cortex_search_stream;
   
 /************************************
  Upload first 4 documents from GIT repository
- https://github.com/kkrizek/hol_cortex_search/tree/main/pdf
+
 ************************************/
   
 LS @rag;
