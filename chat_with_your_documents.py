@@ -12,7 +12,7 @@ pd.set_option("max_colwidth",None)
 NUM_CHUNKS = 3 # Num-chunks provided as context. Play with this to check how it affects your accuracy
 
 # service parameters
-CORTEX_SEARCH_DATABASE = "MDT2_CORTEX_SEARCH_DOCS##"
+CORTEX_SEARCH_DATABASE = "MDT2_CORTEX_SEARCH_DOCS#"
 CORTEX_SEARCH_SCHEMA = "DATA"
 CORTEX_SEARCH_SERVICE = "CORTEX_SEARCH_SVC"
 ######
@@ -75,7 +75,7 @@ def create_prompt (myquestion):
         prompt = f"""
            You are an expert chat assistance that extracs information from the CONTEXT provided
            between <context> and </context> tags.
-           When ansering the question contained between <question> and </question> tags
+           When answering the question contained between <question> and </question> tags
            be concise and do not hallucinate. 
            If you don´t have the information just say so.
            Only anwer the question if you can extract it from the CONTEXT provideed.
