@@ -14,7 +14,7 @@ NUM_CHUNKS = 3 # Num-chunks provided as context. Play with this to check how it 
 slide_window = 7 # how many last conversations to remember. This is the slide window.
 
 # service parameters
-CORTEX_SEARCH_DATABASE = "MDT2_CORTEX_SEARCH_DOCS##"
+CORTEX_SEARCH_DATABASE = "MDT2_CORTEX_SEARCH_DOCS#"
 CORTEX_SEARCH_SCHEMA = "DATA"
 CORTEX_SEARCH_SERVICE = "CORTEX_SEARCH_SVC"
 ######
@@ -136,7 +136,7 @@ def create_prompt (myquestion):
            between <context> and </context> tags.
            You offer a chat experience considering the information included in the CHAT HISTORY
            provided between <chat_history> and </chat_history> tags..
-           When ansering the question contained between <question> and </question> tags
+           When answering the question contained between <question> and </question> tags
            be concise and do not hallucinate. 
            If you don´t have the information just say so.
            
