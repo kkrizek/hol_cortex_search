@@ -9,5 +9,7 @@ Hands-on Lab Flow:
 - Google Slide Presentation (5 minutes)
 - Review the Premium Bicycle User Guide calling out the highlighted text
 - Create a new notebook from the notebook in the Git repository
-  - klajfd
-  - 
+  - The notebook creates a document pipeline with a stream, task, dynamic table, and a search service
+  - The notebook also contains the source code for two Streamlit apps
+     - Streamlit App1:  no chat history
+     - Streamlit App2:  chat history
